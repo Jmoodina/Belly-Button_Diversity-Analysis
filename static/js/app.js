@@ -33,9 +33,19 @@ function initializeDashboard() {
         buildBarChart(defaultSample);
         buildBubbleChart(defaultSample);
         buildGaugeChart(defaultSample);
-
     });
-};
+    
+    // Add event listener to the dropdown menu
+    dropdownMenu.on("change", function(){
+
+        // Get teh selected value
+        let selectedSample = d3.select(this).property("value");
+
+        // Call the updated Dashboard function wit the selected value
+        updateDashboard(selectedSample);
+    });
+}
+
 
 // Function to populate metadata information
 function buildMetadata(selectedSample) {

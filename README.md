@@ -34,4 +34,4 @@ Maintained regular commits throughout the development process, ensuring a clear 
 Created a thorough README.md file in the GitHub repository to provide comprehensive information and guidance for users and developers.
 
 ## Conclusion:
-The Belly Button Biodiversity Dashboard has been successfully completed, allowing users to explore and analyze microbial data interactively. The dynamic updates, coupled with visually appealing charts and metadata displays, contribute to an engaging user experience. The deployment on GitHub Pages ensures accessibility for a broader audience.
+The Belly Button Biodiversity Dashboard has been successfully completed, allowing users to explore and analyze microbial data interactively. The dynamic updates, coupled with visually appealing charts and metadata displays, contribute to an engaging user experience. The deployment on GitHub Pages ensures accessibility for a broader audience
